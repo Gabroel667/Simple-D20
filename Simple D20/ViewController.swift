@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     @IBAction func rollDice(_ sender: UIButton) {
         rollTheDice.image=dadoRpg[Int.random(in: 0...19)]
+        print("rolou o dado")
     }
     
 }
